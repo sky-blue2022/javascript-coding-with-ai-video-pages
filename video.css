@@ -99,12 +99,12 @@ header h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 10px;
   flex: 1; /* Ensures video section takes up available space */
 }
 
 .video-detail video {
-  width: 80%;
+  width: 90%;
   max-width: 700px;
   height: auto;
   max-height: 70vh;
@@ -114,7 +114,7 @@ header h1 {
 
 /* Back to Home button */
 .navigation-buttons {
-  margin-top: 1.5rem;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
 }
@@ -140,16 +140,20 @@ footer {
   font-size: 0.7rem;
   color: #fff;
   text-align: center;
-  padding: 1rem;
+  padding: 5px;
   position: fixed;
   bottom: 0;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 .footer-logo {
   width: 50px;
   height: auto;
-  margin-bottom: 0.5rem;
+  padding-right: 5px;
 }
 
 /* Responsive layout adjustments for mobile screens */
