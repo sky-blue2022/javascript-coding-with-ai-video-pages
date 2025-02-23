@@ -144,10 +144,15 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  margin: auto;
+}
+
+footer a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .footer-logo {
